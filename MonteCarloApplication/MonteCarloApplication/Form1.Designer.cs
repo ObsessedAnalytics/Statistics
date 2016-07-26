@@ -152,9 +152,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(51, 379);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(277, 25);
+            this.label5.Size = new System.Drawing.Size(278, 25);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Minimym Free Throw Attempts";
+            this.label5.Text = "Minimum Free Throw Attempts";
             // 
             // label6
             // 
@@ -205,9 +205,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(41, 709);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(201, 25);
+            this.label9.Size = new System.Drawing.Size(293, 25);
             this.label9.TabIndex = 17;
-            this.label9.Text = "Predicted Rebound %";
+            this.label9.Text = "Predicted Defensive Rebound %";
             // 
             // textBox10
             // 
@@ -239,9 +239,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(488, 133);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(225, 25);
+            this.label11.Size = new System.Drawing.Size(232, 25);
             this.label11.TabIndex = 20;
-            this.label11.Text = "Current Wins (Estimated";
+            this.label11.Text = "Current Wins (Estimated)";
             // 
             // label14
             // 
