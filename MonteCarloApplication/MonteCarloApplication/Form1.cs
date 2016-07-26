@@ -16,6 +16,16 @@ namespace MonteCarloApplication
         public Form1()
         {
             InitializeComponent();
+            textBox1.Text = "80.4";
+            textBox2.Text = "89.3";
+            textBox3.Text = "20.0";
+            textBox4.Text = "29.2";
+            textBox5.Text = "12.3";
+            textBox6.Text = "17.2";
+            textBox7.Text = "52.00";
+            textBox8.Text = ".75";
+            textBox9.Text = ".77";
+            textBox14.Text = "10000";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -24,12 +34,12 @@ namespace MonteCarloApplication
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -99,8 +109,9 @@ namespace MonteCarloApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double[] output = MonteCarlo.GetInput(textBox1.Text);
-
+            double[] output = MonteCarlo.GetInput(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox9.Text, textBox14.Text);
+            textBox10.Text = output[0].ToString();
+            textBox11.Text = output[1].ToString();
         }
 
 

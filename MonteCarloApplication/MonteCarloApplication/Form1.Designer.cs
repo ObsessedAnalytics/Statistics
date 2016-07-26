@@ -50,10 +50,6 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -247,44 +243,10 @@
             this.label11.TabIndex = 20;
             this.label11.Text = "Current Wins (Estimated";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(52, 794);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(183, 25);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "Offensive Efficiency";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(46, 822);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(282, 29);
-            this.textBox12.TabIndex = 22;
-            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(52, 875);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(140, 25);
-            this.label13.TabIndex = 25;
-            this.label13.Text = "Points Allowed";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(46, 903);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(282, 29);
-            this.textBox13.TabIndex = 24;
-            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(51, 962);
+            this.label14.Location = new System.Drawing.Point(51, 796);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(203, 25);
             this.label14.TabIndex = 27;
@@ -292,7 +254,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(45, 990);
+            this.textBox14.Location = new System.Drawing.Point(45, 824);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(282, 29);
             this.textBox14.TabIndex = 26;
@@ -312,14 +274,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 1063);
+            this.ClientSize = new System.Drawing.Size(839, 882);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox11);
@@ -374,10 +332,6 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Button button1;
